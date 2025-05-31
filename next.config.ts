@@ -1,5 +1,4 @@
 // next.config.ts
-
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
@@ -10,8 +9,7 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
 
   // 3) (Opcional) Si quieres que tu PWA funcione offline, instala `next-pwa`
-  //    y descomenta la sección siguiente. Si no necesitas service worker, omite todo esto.
-  //
+  // y descomenta la sección siguiente. Si no necesitas service worker, omite todo esto.
   // pwa: {
   //   dest: "public",
   //   register: true,
@@ -20,4 +18,5 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
+
 
